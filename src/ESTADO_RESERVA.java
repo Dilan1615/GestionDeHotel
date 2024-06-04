@@ -1,9 +1,16 @@
 package gestionhotel;
 
+/**
+ *
+ * @author Grupo7PIS
+ */
 import java.util.Random;
 
-public enum ESTADO_RESERVA {
+enum ESTADO_RESERVA {
     SOLICITADA, EN_PROCESO, COMPLETADA;
 
-
+    public static ESTADO_RESERVA generarEstadoAleatorio() {
+        Random random = new Random();
+        return values()[random.nextInt(values().length)];
+    }
 }
