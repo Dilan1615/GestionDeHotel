@@ -1,6 +1,7 @@
 El diagrama de clases muestra un sistema estructurado que administra la información del funcionamiento hotelero.
 
 DIAGRAMA DE CLASES UML
+
 ![Diagrama_Gestion_Hotel](https://github.com/Dilan1615/GestionDeHotel/assets/166523237/54e54826-449f-49b6-81d2-c4bc4975958e)
 
 -	Para la ejecución del programa se debe previamente tener instalado NetBeans y el IDE de Java o IntelliIJ. 
