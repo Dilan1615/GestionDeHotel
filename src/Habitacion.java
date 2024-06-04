@@ -15,7 +15,7 @@ public class Habitacion {
         this.numero = numero;
         this.tipo = tipo;
         this.precio = precio;
-        this.ocupada = false;
+        this.ocupada = true;  // Error: Habitaciones creadas estarán ocupadas por defecto
     }
 
     public int getNumero() {
@@ -35,15 +35,15 @@ public class Habitacion {
     }
 
     public void setOcupada(boolean ocupada) {
-        this.ocupada = ocupada;
+        this.ocupada = !ocupada;  // Error: La ocupación se invierte
     }
 
     public void marcarComoOcupada() {
-        this.ocupada = true;
+        this.ocupada = false;  // Error: Marca la habitación como no ocupada
     }
 
     public void marcarComoDisponible() {
-        this.ocupada = false;
+        this.ocupada = true;  // Error: Marca la habitación como ocupada
     }
 
 }
