@@ -10,12 +10,17 @@ DIAGRAMA DE CLASES UML
 
 IMPLEMENTACION 
 Caso 1
+
 ![Ejecucion3](https://github.com/Dilan1615/GestionDeHotel/assets/166523237/d0c8558d-42cc-42dd-b998-b9e6b53f1a6a)
 Caso 2
+
 ![Ejecucion1](https://github.com/Dilan1615/GestionDeHotel/assets/166523237/ccc85ff4-9eb4-4ca6-ab39-0642410fabd4)
 Caso 3
+
 ![Ejecucion2](https://github.com/Dilan1615/GestionDeHotel/assets/166523237/b2bb5494-0d18-473f-b667-8e5c0b0f474a)
 Caso 4
+
 ![Captura de pantalla 2024-06-03 222815](https://github.com/Dilan1615/GestionDeHotel/assets/166628946/1ba41c6d-d756-4a38-9f7e-c1aa9a28dc7d)
 Caso 5
+
 ![Captura de pantalla 2024-06-03 222749](https://github.com/Dilan1615/GestionDeHotel/assets/166628946/5d06c633-ed80-41b7-a060-8c33475c7583)
