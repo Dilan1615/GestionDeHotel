@@ -6,7 +6,7 @@ package gestionhotel;
 
 /**
  *
- * @author alexa
+ * @author Grupo7PIS
  */
 enum TIPO_PERSONAL {
 
