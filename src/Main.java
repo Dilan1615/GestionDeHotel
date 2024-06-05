@@ -1,4 +1,4 @@
-package gestionhotel;
+package gestionHotel;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -21,7 +21,7 @@ public class Main {
         boolean finalizar = false;
 
         System.out.println("Bienvenido al Hotel Mar Azul; Ofrecemos una amplia gama de servicios para que tu estancia sea lo mas placentera posible.");
-        
+
         System.out.println("Desea reservar una habitacion (Si/No)");
         String respuestaReserva = scanner.nextLine();
 
@@ -103,23 +103,27 @@ public class Main {
             switch (opcion) {
                 case 1:
                     System.out.println("Ingrese el nuevo nombre del huesped:");
-                    String nuevoNombre = scanner.nextLine();
+                    String nuevoNombreHuesped = scanner.nextLine();
                     System.out.println("Ingrese el nuevo telefono del huesped:");
-                    String nuevoTelefono = scanner.nextLine();
-                    huesped.setNombre(nuevoNombre);
-                    huesped.setTelefono(nuevoTelefono);
+                    String nuevoTelefonoHuesped = scanner.nextLine();
+                    huesped.setNombre(nuevoNombreHuesped);
+                    huesped.setTelefono(nuevoTelefonoHuesped);
+                    finalizar = true;
                     break;
                 case 2:
+                    finalizar = false;
                     break;
                 case 3:
                     finalizar = true;
                     break;
                 default:
-                    System.out.println("Opcion no valida. Por favor, seleccione una opcion valida.");
+                    System.out.println("Opcion no valida");
+                    finalizar = true;
+                    break;
             }
 
         } while (!finalizar);
 
-        System.out.println("Programa finalizado.");
+        System.out.println("Gracias por hospedarte en el Hotel Mar Azul. ¡Hasta luego!");
     }
 }
