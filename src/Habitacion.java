@@ -1,21 +1,20 @@
-package gestionhotel;
+package gestionHotel;
 
 /**
  *
  * @author Grupo7PIS
  */
 public class Habitacion {
-
     private int numero;
     private String tipo;
-    private float precio;
+    private double precio;
     private boolean ocupada;
 
-    public Habitacion(int numero, String tipo, float precio) {
+    public Habitacion(int numero, String tipo, double precio) {
         this.numero = numero;
         this.tipo = tipo;
         this.precio = precio;
-        this.ocupada = true;  // Error: Habitaciones creadas estarán ocupadas por defecto
+        this.ocupada = false; // Inicialmente la habitación está disponible
     }
 
     public int getNumero() {
@@ -26,7 +25,7 @@ public class Habitacion {
         return tipo;
     }
 
-    public float getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
@@ -34,16 +33,8 @@ public class Habitacion {
         return ocupada;
     }
 
-    public void setOcupada(boolean ocupada) {
-        this.ocupada = !ocupada;  // Error: La ocupación se invierte
-    }
-
+    // Método para marcar la habitación como ocupada
     public void marcarComoOcupada() {
-        this.ocupada = false;  // Error: Marca la habitación como no ocupada
+        this.ocupada = true;
     }
-
-    public void marcarComoDisponible() {
-        this.ocupada = true;  // Error: Marca la habitación como ocupada
-    }
-
 }
