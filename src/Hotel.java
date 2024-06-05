@@ -1,4 +1,4 @@
-package gestionhotel;
+package gestionHotel;
 
 /**
  *

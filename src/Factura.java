@@ -1,4 +1,4 @@
-package gestionhotel;
+package gestionHotel;
 
 /**
  *
@@ -32,4 +32,6 @@ public class Factura {
         System.out.println("Total: " + costoTotal);
     }
 
+    // Getters y setters
 }
+
