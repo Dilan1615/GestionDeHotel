@@ -4,10 +4,10 @@ package gestionHotel;
  *
  * @author Grupo7PIS
  */
+
 import java.time.LocalDate;
 
 public class Reserva {
-    //Definicion de atributos 
     private int id;
     private LocalDate fechaInicio;
     private LocalDate fechaFin;
@@ -22,8 +22,8 @@ public class Reserva {
         this.fechaFin = fechaFin;
         this.habitacion = habitacion;
         this.huesped = huesped;
-        this.estado = "PENDIENTE";
-        this.costoServiciosExtras = 0.0; 
+        this.estado = "PENDIENTE"; // Por defecto, la reserva se crea en estado PENDIENTE
+        this.costoServiciosExtras = 0.0; // Por defecto, el costo de los servicios extras es 0
     }
 
     public void crearReserva() {
