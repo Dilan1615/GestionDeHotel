@@ -4,7 +4,7 @@ DIAGRAMA DE CLASES UML
 
 ![Diagrama_Gestion_Hotel](https://github.com/Dilan1615/GestionDeHotel/assets/166523237/54e54826-449f-49b6-81d2-c4bc4975958e)
 
--	Para la ejecución del programa se debe previamente tener instalado NetBeans y el IDE de Java o IntelliIJ. 
+-	Para la ejecución del programa se debe previamente tener instalado NetBeans y el IDE de Java (JDK) o IntelliIJ. 
 -	El programa permite inicialmente presentar, información del hotel en lo que respecta a su habitaciones y su disponibilidad, servicios adicionales al cliente.
 -	Da la funcionalidad de registrar a los huéspedes con su fecha de ingreso y salida, adicionalmente generar una factura dependiendo de los servicios adquiridos por el mismo.
 
